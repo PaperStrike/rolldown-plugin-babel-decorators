@@ -1,4 +1,5 @@
 # rolldown-plugin-babel-decorators
+[![npm Package](https://img.shields.io/npm/v/rolldown-plugin-babel-decorators?logo=npm "rolldown-plugin-babel-decorators")](https://www.npmjs.com/package/rolldown-plugin-babel-decorators)
 
 A simple [Rolldown](https://github.com/rolldown/rolldown) plugin to enable Babel decorators support.
 
