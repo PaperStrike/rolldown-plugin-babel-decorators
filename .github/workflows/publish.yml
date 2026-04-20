@@ -23,5 +23,5 @@ jobs:
           registry-url: https://registry.npmjs.org/
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
-      - run: pnpm version ${{ github.ref_name }} --no-git-tag-version
-      - run: pnpm publish --access public --no-git-checks
+      - run: npm version ${{ github.ref_name }} --no-git-tag-version
+      - run: npm publish --access public --no-git-checks
