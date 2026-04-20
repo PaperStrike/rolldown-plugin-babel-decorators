@@ -1,5 +1,6 @@
 {
   "name": "rolldown-plugin-babel-decorators",
+  "version": "0.0.0",
   "type": "module",
   "license": "MIT",
   "exports": {
@@ -9,6 +10,9 @@
   "scripts": {
     "build": "tsdown"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@types/babel__core": "^7.20.5",
     "@types/node": "^25.6.0",
