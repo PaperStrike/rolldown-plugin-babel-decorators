@@ -1,0 +1,31 @@
+# Mac and Windows
+.DS_Store
+desktop.ini
+
+# IntelliJ
+.idea/
+
+# Node
+node_modules/
+
+# Generate in development
+.nyc_output/
+coverage/
+build/
+dist/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+test-results/
+*.tsbuildinfo
+/*.tgz
+/*.zip
+/*.7z
+/*.gz
+.bundles/
+.cache/
+.vitest-attachments/
+
+# Sensitive
+*.local
+*.local.*
+*.bak
