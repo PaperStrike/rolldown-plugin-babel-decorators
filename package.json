@@ -1,6 +1,14 @@
 {
   "name": "rolldown-plugin-babel-decorators",
   "version": "0.0.0",
+  "description": "Rolldown plugin that enables Babel decorators transform support.",
+  "keywords": [
+    "rolldown",
+    "plugin",
+    "babel",
+    "decorators",
+    "typescript"
+  ],
   "type": "module",
   "license": "MIT",
   "exports": {
@@ -10,6 +18,7 @@
   "scripts": {
     "build": "tsdown"
   },
+  "repository": "github:PaperStrike/rolldown-plugin-babel-decorators",
   "files": [
     "dist"
   ],
