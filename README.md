@@ -24,13 +24,21 @@ export default defineConfig({
 
 ## Options
 
-| Option   | Type     | Default    | Description                              |
-|----------|----------|------------|------------------------------------------|
-| version  | string   | "2023-11"  | Decorators proposal version to use       |
+Options are passed directly through to [`@babel/plugin-proposal-decorators`](https://babeljs.io/docs/babel-plugin-proposal-decorators/) (Babel 8).
 
-Supported versions: `"2023-11"`, `"2023-05"`, `"2023-01"`, `"2022-03"`, `"2021-12"`, `"2018-09"`, `"legacy"`
+```ts
+import { defineConfig } from 'rolldown'
+import { decorators } from 'rolldown-plugin-babel-decorators'
+import type { BabelDecoratorsPluginOptions } from 'rolldown-plugin-babel-decorators'
 
-For detailed differences between decorator proposal versions, see the [Babel documentation](https://babeljs.io/docs/babel-plugin-proposal-decorators#version).
+export default defineConfig({
+  plugins: [
+    decorators({
+      // ...Babel decorators plugin options
+    }),
+  ],
+})
+```
 
 ## License
 
