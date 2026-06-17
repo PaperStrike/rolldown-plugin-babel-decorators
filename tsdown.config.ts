@@ -5,5 +5,7 @@ export default defineConfig({
     index: 'src/index.ts',
   },
   dts: true,
-  exports: true,
+  exports: {
+    legacy: true,
+  },
 })
